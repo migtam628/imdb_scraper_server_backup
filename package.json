@@ -1,0 +1,26 @@
+{
+  "name": "imdb_scraper",
+  "version": "0.0.1",
+  "description": "Scrapes data off imdb.com and returns JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js -i max"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migtam628/IMDB_Scraper_API.git"
+  },
+  "author": "Mig Tam ROd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/migtam628/IMDB_Scraper_API/issues"
+  },
+  "engines": {
+    "node": "6.2.0"
+  },
+  "homepage": "https://github.com/migtam628/IMDB_Scraper_API#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "yifysubtitles": "2.1.5"
+  }
+}
